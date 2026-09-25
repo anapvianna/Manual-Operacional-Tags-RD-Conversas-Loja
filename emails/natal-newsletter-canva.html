@@ -13,20 +13,24 @@
   Preview text:     A agenda de Natal do Brownie do Luiz já está aberta.
 
   COMO USAR
-  1. No Canva, baixe cada imagem abaixo (clique na imagem >
-     "Baixar" ou exporte a página e recorte) e suba no RD Station
-     em Marketing > Arquivos (ou em outro servidor HTTPS).
-  2. Troque cada URL "https://placehold.co/..." pela URL final.
-     Tamanhos (em 2x para telas retina):
-       - logo.png ............... 360 x 110  (exibido em 180 x 55)
-       - hero-panettone.jpg ..... 1200 x 500 (exibido em 600 x 250)
-       - lata-personalizada.png . 400 x 400  (exibido em 200 x 200)
-       - empresas.jpg ........... 280 x 280  (exibido em 140 x 140, redondo)
-       - eventos.jpg ............ 280 x 280
-       - presentes.jpg .......... 280 x 280
-       - bites.jpg .............. 360 x 360  (exibido em 180 x 180)
-       - panettone.jpg .......... 360 x 360
-       - latas.jpg .............. 360 x 360
+  1. As imagens já foram exportadas do Canva (em 2x, para telas
+     retina) e recortadas na pasta natal-newsletter-canva/:
+       - logo.png ................. 360 x 101  (exibido em 180 x 51)
+       - hero-panettone.jpg ....... 1200 x 500 (exibido em 600 x 250)
+       - lata-personalizada.jpg ... 440 x 326  (exibido em 220 x 163)
+       - empresas.jpg ............. 280 x 280  (exibido em 120 x 120)
+       - eventos.jpg .............. 280 x 280
+       - presentes.jpg ............ 280 x 280
+       - bites.jpg ................ 360 x 413  (exibido em 174 x 200)
+       - panettone.jpg ............ 360 x 413
+       - latas.jpg ................ 360 x 413
+     Círculos e cantos arredondados já estão "assados" nas imagens
+     (fundo vermelho #E2201B / fundo da página #FCFCFC), então ficam
+     certos também no Outlook, que ignora border-radius.
+  2. Suba essas imagens no RD Station (Marketing > Arquivos) ou em
+     outro servidor HTTPS e troque cada caminho
+     "natal-newsletter-canva/..." pela URL pública final. Caminho
+     relativo só funciona na pré-visualização local.
   3. No RD Station: Email > Criar email > "Editor HTML" (ou
      "Importar HTML") e cole este código / suba este arquivo.
      O RD adiciona o link de descadastro automaticamente.
@@ -79,16 +83,16 @@
 </style>
 </head>
 
-<body id="body" style="margin:0; padding:0; background-color:#FFFFFF; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+<body id="body" style="margin:0; padding:0; background-color:#FCFCFC; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
 
 <!-- PREVIEW TEXT (oculto) -->
-<div style="display:none; font-size:1px; color:#FFFFFF; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; mso-hide:all;">
+<div style="display:none; font-size:1px; color:#FCFCFC; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; mso-hide:all;">
   A agenda de Natal do Brownie do Luiz já está aberta.
   &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
 </div>
 
 <!-- WRAPPER -->
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#FFFFFF; width:100%;" bgcolor="#FFFFFF">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#FCFCFC; width:100%;" bgcolor="#FCFCFC">
   <tr>
     <td align="center" valign="top" style="padding:0;">
 
@@ -97,7 +101,7 @@
       <![endif]-->
 
       <!-- CONTAINER 600px -->
-      <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="width:600px; max-width:600px; background-color:#FFFFFF;" bgcolor="#FFFFFF">
+      <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="width:600px; max-width:600px; background-color:#FCFCFC;" bgcolor="#FCFCFC">
 
         <!-- CABEÇALHO: LOGO + MENU -->
         <tr>
@@ -106,7 +110,7 @@
               <tr>
                 <td class="stack center-mobile" width="200" valign="middle" align="left" style="width:200px;">
                   <a href="https://browniedoluiz.com.br/collections/all" target="_blank" style="text-decoration:none;">
-                    <img src="https://placehold.co/360x110/FFFFFF/E3241B/png?text=BROWNIE+DO+LUIZ" width="180" height="55" alt="BROWNIE DO LUIZ" style="display:inline-block; width:180px; height:auto; max-width:180px; border:0; outline:none; font-family:Arial, Helvetica, sans-serif; font-size:22px; line-height:26px; font-weight:bold; color:#E3241B;" />
+                    <img src="natal-newsletter-canva/logo.png" width="180" height="51" alt="BROWNIE DO LUIZ" style="display:inline-block; width:180px; height:auto; max-width:180px; border:0; outline:none; font-family:Arial, Helvetica, sans-serif; font-size:22px; line-height:26px; font-weight:bold; color:#E2201B;" />
                   </a>
                 </td>
                 <td class="stack center-mobile" valign="middle" align="right" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; color:#1A1A1A; padding-top:6px;">
@@ -123,7 +127,7 @@
         <tr>
           <td align="center" style="padding:0;">
             <a href="https://browniedoluiz.com.br/collections/all" target="_blank" style="text-decoration:none;">
-              <img src="https://placehold.co/1200x500/B3161B/FFFFFF/jpg?text=Panettone+Brownie+do+Luiz" class="fluid-img" width="600" height="250" alt="Panettone Brownie do Luiz com gotas de chocolate" style="display:block; width:600px; max-width:600px; height:auto; border:0; outline:none; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#E3241B;" />
+              <img src="natal-newsletter-canva/hero-panettone.jpg" class="fluid-img" width="600" height="250" alt="Panettone Brownie do Luiz com gotas de chocolate" style="display:block; width:600px; max-width:600px; height:auto; border:0; outline:none; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#E2201B;" />
             </a>
           </td>
         </tr>
@@ -150,7 +154,7 @@
         <tr>
           <td align="center" style="padding:0 20px 36px 20px;">
             <!--[if mso]>
-            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://wa.me/5521971532543" style="height:44px;v-text-anchor:middle;width:280px;" arcsize="50%" stroke="f" fillcolor="#E3241B">
+            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://wa.me/5521971532543" style="height:44px;v-text-anchor:middle;width:280px;" arcsize="50%" stroke="f" fillcolor="#E2201B">
               <w:anchorlock/>
               <center style="color:#FFFFFF;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;">FALAR COM O TIME NO WHATSAPP</center>
             </v:roundrect>
@@ -158,7 +162,7 @@
             <!--[if !mso]><!-->
             <table role="presentation" class="btn-mobile" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">
               <tr>
-                <td align="center" style="background-color:#E3241B; border-radius:30px;" bgcolor="#E3241B">
+                <td align="center" style="background-color:#E2201B; border-radius:30px;" bgcolor="#E2201B">
                   <a href="https://wa.me/5521971532543" target="_blank" style="display:inline-block; padding:14px 44px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; font-weight:bold; color:#FFFFFF; text-decoration:none; border-radius:30px; letter-spacing:0.5px;">
                     FALAR COM O TIME NO WHATSAPP
                   </a>
@@ -172,7 +176,7 @@
         <!-- ============ BLOCO VERMELHO ============ -->
         <tr>
           <td class="px-mobile" style="padding:0 40px 40px 40px;">
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#E3241B; border-radius:10px;" bgcolor="#E3241B">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#E2201B; border-radius:10px;" bgcolor="#E2201B">
 
               <!-- Personalização da lata -->
               <tr>
@@ -183,8 +187,8 @@
                         <p style="margin:0 0 8px 0; font-family:Arial, Helvetica, sans-serif; font-size:20px; line-height:26px; font-weight:bold; color:#FFC20E; mso-line-height-rule:exactly;">PERSONALIZAÇÃO DA LATA</p>
                         <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#FFFFFF; mso-line-height-rule:exactly;">PARA PRESENTEAR, CRIAR AÇÕES OU FAZER PARTE DE UM MOMENTO ESPECIAL</p>
                       </td>
-                      <td class="stack" width="200" valign="middle" align="center" style="width:200px; padding-top:8px;">
-                        <img src="https://placehold.co/400x400/E3241B/FFFFFF/png?text=Lata+personalizada" width="200" height="200" alt="Lata personalizada Brownie do Luiz com brownies" style="display:block; width:200px; height:auto; max-width:200px; border:0; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" />
+                      <td class="stack" width="220" valign="middle" align="center" style="width:220px; padding-top:8px;">
+                        <img src="natal-newsletter-canva/lata-personalizada.jpg" width="220" height="163" alt="Lata personalizada Brownie do Luiz com brownies" style="display:block; width:220px; height:auto; max-width:220px; border:0; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF;" />
                       </td>
                     </tr>
                   </table>
@@ -201,7 +205,7 @@
                   <table role="presentation" class="stack" width="168" cellpadding="0" cellspacing="0" border="0" align="left" style="width:168px;">
                     <tr>
                       <td class="stack-pad" align="center" valign="top" style="padding:0 6px;">
-                        <img src="https://placehold.co/280x280/FFFFFF/E3241B/jpg?text=Empresas" width="120" height="120" alt="Empresas e marcas" style="display:block; width:120px; height:auto; max-width:120px; border:0; border-radius:60px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFFFFF;" />
+                        <img src="natal-newsletter-canva/empresas.jpg" width="120" height="120" alt="Empresas e marcas" style="display:block; width:120px; height:auto; max-width:120px; border:0; border-radius:60px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFFFFF;" />
                         <p style="margin:12px 0 6px 0; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:20px; font-weight:bold; color:#FFC20E; mso-line-height-rule:exactly;">EMPRESAS &amp; MARCAS</p>
                         <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:16px; color:#FFFFFF; mso-line-height-rule:exactly;">Presentes para clientes, parceiros e equipes, ações de marketing, endomarketing e eventos corporativos.</p>
                       </td>
@@ -213,7 +217,7 @@
                   <table role="presentation" class="stack" width="168" cellpadding="0" cellspacing="0" border="0" align="left" style="width:168px;">
                     <tr>
                       <td class="stack-pad" align="center" valign="top" style="padding:0 6px;">
-                        <img src="https://placehold.co/280x280/FFFFFF/E3241B/jpg?text=Eventos" width="120" height="120" alt="Eventos" style="display:block; width:120px; height:auto; max-width:120px; border:0; border-radius:60px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFFFFF;" />
+                        <img src="natal-newsletter-canva/eventos.jpg" width="120" height="120" alt="Eventos" style="display:block; width:120px; height:auto; max-width:120px; border:0; border-radius:60px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFFFFF;" />
                         <p style="margin:12px 0 6px 0; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:20px; font-weight:bold; color:#FFC20E; mso-line-height-rule:exactly;">EVENTOS</p>
                         <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:16px; color:#FFFFFF; mso-line-height-rule:exactly;">Casamentos, aniversários, confraternizações, feiras e outras ocasiões.</p>
                       </td>
@@ -225,7 +229,7 @@
                   <table role="presentation" class="stack" width="168" cellpadding="0" cellspacing="0" border="0" align="left" style="width:168px;">
                     <tr>
                       <td class="stack-pad" align="center" valign="top" style="padding:0 6px;">
-                        <img src="https://placehold.co/280x280/FFFFFF/E3241B/jpg?text=Presentes" width="120" height="120" alt="Presentes" style="display:block; width:120px; height:auto; max-width:120px; border:0; border-radius:60px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFFFFF;" />
+                        <img src="natal-newsletter-canva/presentes.jpg" width="120" height="120" alt="Presentes" style="display:block; width:120px; height:auto; max-width:120px; border:0; border-radius:60px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#FFFFFF;" />
                         <p style="margin:12px 0 6px 0; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:20px; font-weight:bold; color:#FFC20E; mso-line-height-rule:exactly;">PRESENTES</p>
                         <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:16px; color:#FFFFFF; mso-line-height-rule:exactly;">De uma unidade a pedidos maiores, para quem quer transformar brownie em presente de Natal.</p>
                       </td>
@@ -256,8 +260,8 @@
             <table role="presentation" class="stack" width="186" cellpadding="0" cellspacing="0" border="0" align="left" style="width:186px;">
               <tr>
                 <td class="stack-pad" align="center" valign="top" style="padding:0 6px;">
-                  <img src="https://placehold.co/360x360/F2E6DA/E3241B/jpg?text=Bites" width="174" height="174" alt="Bites: pouch com 8 mini brownies" style="display:block; width:174px; height:auto; max-width:174px; border:0; border-radius:10px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#E3241B;" />
-                  <p style="margin:14px 0 6px 0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; font-weight:bold; color:#E3241B; mso-line-height-rule:exactly;">BITES</p>
+                  <img src="natal-newsletter-canva/bites.jpg" width="174" height="200" alt="Bites: pouch com 8 mini brownies" style="display:block; width:174px; height:auto; max-width:174px; border:0; border-radius:10px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#E2201B;" />
+                  <p style="margin:14px 0 6px 0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; font-weight:bold; color:#E2201B; mso-line-height-rule:exactly;">BITES</p>
                   <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px; color:#333333; mso-line-height-rule:exactly;">Pouch com 8 mini brownies para presentear, compartilhar ou compor ações e kits.</p>
                 </td>
               </tr>
@@ -268,8 +272,8 @@
             <table role="presentation" class="stack" width="186" cellpadding="0" cellspacing="0" border="0" align="left" style="width:186px;">
               <tr>
                 <td class="stack-pad" align="center" valign="top" style="padding:0 6px;">
-                  <img src="https://placehold.co/360x360/F2E6DA/E3241B/jpg?text=Panettone" width="174" height="174" alt="Panettone Brownie do Luiz" style="display:block; width:174px; height:auto; max-width:174px; border:0; border-radius:10px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#E3241B;" />
-                  <p style="margin:14px 0 6px 0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; font-weight:bold; color:#E3241B; mso-line-height-rule:exactly;">PANETTONE</p>
+                  <img src="natal-newsletter-canva/panettone.jpg" width="174" height="200" alt="Panettone Brownie do Luiz" style="display:block; width:174px; height:auto; max-width:174px; border:0; border-radius:10px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#E2201B;" />
+                  <p style="margin:14px 0 6px 0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; font-weight:bold; color:#E2201B; mso-line-height-rule:exactly;">PANETTONE</p>
                   <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px; color:#333333; mso-line-height-rule:exactly;">Natal, brownie e muito chocolate. Não tinha muito como dar errado. :)</p>
                 </td>
               </tr>
@@ -280,8 +284,8 @@
             <table role="presentation" class="stack" width="186" cellpadding="0" cellspacing="0" border="0" align="left" style="width:186px;">
               <tr>
                 <td class="stack-pad" align="center" valign="top" style="padding:0 6px;">
-                  <img src="https://placehold.co/360x360/F2E6DA/E3241B/jpg?text=Latas" width="174" height="174" alt="Latas Brownie do Luiz" style="display:block; width:174px; height:auto; max-width:174px; border:0; border-radius:10px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#E3241B;" />
-                  <p style="margin:14px 0 6px 0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; font-weight:bold; color:#E3241B; mso-line-height-rule:exactly;">LATAS</p>
+                  <img src="natal-newsletter-canva/latas.jpg" width="174" height="200" alt="Latas Brownie do Luiz" style="display:block; width:174px; height:auto; max-width:174px; border:0; border-radius:10px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#E2201B;" />
+                  <p style="margin:14px 0 6px 0; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; font-weight:bold; color:#E2201B; mso-line-height-rule:exactly;">LATAS</p>
                   <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px; color:#333333; mso-line-height-rule:exactly;">Um clássico do Brownie do Luiz, com opções de personalização a partir de 1 unidade.</p>
                 </td>
               </tr>
@@ -306,14 +310,14 @@
             <!--[if mso]>
             <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://wa.me/5521971532543" style="height:44px;v-text-anchor:middle;width:280px;" arcsize="50%" stroke="f" fillcolor="#FFC20E">
               <w:anchorlock/>
-              <center style="color:#E3241B;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;">FAZER ORÇAMENTO</center>
+              <center style="color:#E2201B;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;">FAZER ORÇAMENTO</center>
             </v:roundrect>
             <![endif]-->
             <!--[if !mso]><!-->
             <table role="presentation" class="btn-mobile" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">
               <tr>
                 <td align="center" style="background-color:#FFC20E; border-radius:30px;" bgcolor="#FFC20E">
-                  <a href="https://wa.me/5521971532543" target="_blank" style="display:inline-block; padding:14px 80px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; font-weight:bold; color:#E3241B; text-decoration:none; border-radius:30px; letter-spacing:0.5px;">
+                  <a href="https://wa.me/5521971532543" target="_blank" style="display:inline-block; padding:14px 80px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; font-weight:bold; color:#E2201B; text-decoration:none; border-radius:30px; letter-spacing:0.5px;">
                     FAZER ORÇAMENTO
                   </a>
                 </td>
